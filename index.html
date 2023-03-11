@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Project</title>
+    <style>
+        /* Global styles */
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('./images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Header Styles */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #8b0000;
+}
+
+/* Main Styles */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+}
+
+footer section {
+  flex-basis: 33%;
+  margin-right: 2rem;
+}
+
+footer section:last-of-type {
+  margin-right: 0;
+}
+
+a {
+  color: #8b0000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #333;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Logo" id="logo">
+        <h1>Coffee Junkies</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#numbers">Numbers</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- <section>
+            <img src="./images/background.jpeg" alt="coffee beans" width="100%">
+        </section> -->
+        <section>
+            <h2>Featured Products</h2>
+            <article>
+                <h3>House Blend Coffee</h3>
+                <img src="./images/house-blend.jpeg" alt="House Blend">
+                <p>House blend coffee is a type of coffee that is typically a combination of different coffee beans, often from different regions, blended together to create a unique and balanced flavor profile. The exact blend can vary depending on the roaster, but typically it is a medium roast with a smooth and well-rounded taste that is not too strong or too weak. It is a popular choice for coffee drinkers who want a reliable and consistent cup of coffee that is easy to drink and pairs well with a variety of foods. The flavor profile of house blend coffee can vary depending on the specific beans used, but it is generally characterized by a balance of acidity, bitterness, and sweetness. Overall, house blend coffee is a classic and versatile coffee option that is enjoyed by many coffee lovers around the world.</p>
+                <h4>
+                    <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank">Details</a>
+                </h4><br><br>
+                <h3>Columbian-Roast</h3>
+                <img src="./images/columbian-roast.jpeg" alt="House Blend">
+                <p>Colombian roast is a type of coffee roast that is made from 100% Arabica coffee beans grown in Colombia, a country known for producing high-quality coffee. This type of roast is known for its medium to medium-dark color and its balanced flavor profile, which is characterized by a mild acidity and sweetness, along with notes of caramel, nuts, and chocolate. Colombian roast is one of the most popular types of coffee in the world and is often enjoyed as a morning or afternoon beverage. It can be brewed using a variety of methods, including drip coffee, French press, or espresso. Additionally, Colombian coffee is often used as a base for blends due to its versatile flavor profile.</p>
+                <h4>
+                    <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank">Details</a>
+                </h4>
+                <br><br>
+                <h3>French-Roast</h3>
+                <img src="./images/french-roast.jpeg" alt="House Blend">
+                <p>French roast is a dark roasted coffee that is characterized by its bold, smoky, and slightly bitter taste. It is made by roasting coffee beans for a longer period of time than other roast levels, resulting in a bean that is very dark and oily on the surface. This roast level is typically achieved when the beans reach an internal temperature of around 240°C (464°F).</p>
+                <h4>
+                    <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank">Details</a>
+                </h4>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a group of coffee enthusiasts who are passionate about delivering the best coffee experience to our customers.</p>
+        </section>
+        <section id="contacts">
+            <h2>Contact Us</h2>
+            <p>306 Chenab East,IIT Ropar</p>
+            <p>Email: jaiswalabhi0786@gmail.com</p>
+            <p>Phone: 8081142136</p>
+        </section>
+        <section id="numbers">
+            <h2>Numbers</h2>
+            <p>Number of Cups of Coffee Served: 10,000</p>
+            <p>Number of Satisfied Customers: 500</p>
+            <p>Number of Awards Won: 3</p>
+        </section>
+    </footer>
+    <a href="#logo">Back to top</a>
+</body>
+</html>
